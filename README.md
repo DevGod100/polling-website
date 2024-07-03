@@ -18,6 +18,21 @@ Built with the Next.js App Router, TypeScript & Tailwind
  - ... and much more
 
 ```
+npx prisma migrate dev
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "defaultdb" at "**************************************************"
+
+√ Enter a name for the new migration: ... fordigiocean
+Applying migration `****************************`
+
+The following migration(s) have been created and applied from new schema changes:
+
+migrations/
+  └─ ****************************/
+    └─ migration.sql
+
+Your database is now in sync with your schema.
 
 
 ## Acknowledgements
