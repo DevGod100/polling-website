@@ -34,6 +34,11 @@ migrations/
 
 Your database is now in sync with your schema.
 
+steps:
+- take out this redis stuff, it's unnnecessary.
+- make polling legit
+- 
+
 
 ## Acknowledgements
 

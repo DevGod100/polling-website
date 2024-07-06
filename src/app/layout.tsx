@@ -9,8 +9,8 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Public Opinion',
-  description: 'A Reddit clone built with polling with Next.js and TypeScript.',
+  title: 'LegitVote - Vote on Anything',
+  description: 'A Reddit clone for polling built with Next.js and TypeScript.',
 }
 
 export default function RootLayout({
