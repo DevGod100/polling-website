@@ -9,7 +9,7 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'LegitVote - Vote on Anything',
+  title: 'LegitPoll - Vote on Anything',
   description: 'A Reddit clone for polling built with Next.js and TypeScript.',
 }
 

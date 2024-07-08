@@ -1,5 +1,5 @@
 import { db } from '@/lib/db'
-import PostFeed from '../PostFeed'
+// import PostFeed from '../PostFeed'
 import { INFINITE_SCROLL_PAGINATION_RESULTS } from '@/config'
 
 const GeneralFeed = async () => {
@@ -16,7 +16,7 @@ const GeneralFeed = async () => {
     take: INFINITE_SCROLL_PAGINATION_RESULTS, // 4 to demonstrate infinite scroll, should be higher in production
   })
 
-  return <PostFeed initialPosts={posts} />
+  return <p>THIS IS THE FEED OF POLLS</p>
 }
 
 export default GeneralFeed
