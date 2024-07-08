@@ -51,3 +51,15 @@ model User {
   accounts    Account[]
   sessions    Session[]
 }
+
+
+// added polling
+
+model Poll {
+  id       Int      @id @default(autoincrement())
+  question String
+  option1  String
+  option2  String
+  votes1   Int      @default(0)
+  votes2   Int      @default(0)
+}
