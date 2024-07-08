@@ -15,7 +15,7 @@ const GeneralFeed = async () => {
   //   take: INFINITE_SCROLL_PAGINATION_RESULTS, // 4 to demonstrate infinite scroll, should be higher in production
   // })
 
-  return <p>THIS IS THE FEED OF POLLS</p>
+  return <p>empty</p>
 }
 
 export default GeneralFeed
